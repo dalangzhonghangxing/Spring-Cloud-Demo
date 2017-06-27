@@ -1,0 +1,25 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: account-service    # 项目名称尽量用小写
+  jpa:
+    database: MYSQL
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:                # 指定数据源
+    driver-class-name: com.mysql.jdbc.Driver                   
+    url: jdbc:mysql://localhost:3306/examination?useUnicode=true&amp;characterEncoding=UTF-8
+    username: root          
+    password: root  
+     
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    # 指定注册中心的地址
+  instance:
+    preferIpAddress: true

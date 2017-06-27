@@ -1,0 +1,6 @@
+common\utils\JsonUtil.class
+common\model\Record.class
+common\model\Test.class
+common\model\BaseEntity.class
+common\model\Question.class
+common\model\Account.class
