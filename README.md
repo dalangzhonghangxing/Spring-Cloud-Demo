@@ -1,5 +1,6 @@
 该项目是一个简单的考试系统，分为考题管理页面和考试页面。
 运行前需要创建数据库examination，在运行时先启动Test-Service，在启动Account-Service。
+前端git地址为 git@github.com:dalangzhonghangxing/Spring-Cloud-Demo-front-end.git 。由于重点在Spring-Cloud，因此前端界面只用了基本的bootstrap风格，采用AngularJS框架。
 系统会初始化两个账号：
 管理员。账号:admin，密码:admin
 考生。账号:tester，密码:tester
