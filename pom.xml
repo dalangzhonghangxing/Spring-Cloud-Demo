@@ -12,6 +12,7 @@
 		<module>test-service</module>
 		<module>api-gateway</module>
 		<module>eureka</module>
+		<module>front-end</module>
 	</modules>
 
 
